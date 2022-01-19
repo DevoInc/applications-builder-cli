@@ -1,0 +1,63 @@
+{
+  "plugins": [],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "globalReturn": true,
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "amd": true,
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "document": false,
+    "escape": false,
+    "navigator": false,
+    "unescape": false,
+    "window": false,
+    "describe": true,
+    "before": true,
+    "it": true,
+    "expect": true,
+    "sinon": true,
+    "ReactDOM": true,
+    "React": true,
+    "Intl": true,
+    "lt": true,
+    "requesito": true,
+    "moment": true,
+    "Highcharts": true,
+    "$": true,
+    "baseWeb": true
+  },
+  "rules": {
+    "comma-dangle": 1,
+
+    "max-len": [1, { "ignoreComments": true, "ignoreTemplateLiterals": true }],
+
+    "quotes": [1, "single", { "allowTemplateLiterals": true }],
+
+    "semi": [1, "always"],
+
+    "no-undef": 1,
+    "global-strict": 0,
+
+    "no-extra-semi": 1,
+
+    "no-underscore-dangle": 0,
+    "no-console": 0,
+    "no-unused-vars": 1,
+    "no-trailing-spaces": [1, { "skipBlankLines": true }],
+    "no-unreachable": 1,
+    "no-alert": 0,
+
+    "indent": [1, 2, { "SwitchCase": 1 }]
+  }
+}
