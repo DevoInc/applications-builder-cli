@@ -21,7 +21,7 @@ platform.
 
 From npmjs
 ```
-sudo npm install @devo/dab-cli -global
+sudo npm install @devo/applications-builder-client -global
 ```
 
 Local repository
