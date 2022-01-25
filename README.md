@@ -19,6 +19,12 @@ platform.
 
 ## Installation
 
+From npmjs
+```
+sudo npm install @devo/dab-cli -global
+```
+
+Local repository
 ```
 sudo npm install -global
 ```
