@@ -31,7 +31,7 @@ module.exports = function (mode, opts) {
   let params = [
     opts.serve ? paths.binWebpackDevServer : paths.binWebpack,
     '--progress',
-    '--colors',
+    '--color',
     `--config=${paths.webpackConfig}`,
     `--mode=${modeWebpack[mode]}`,
   ];
@@ -39,8 +39,6 @@ module.exports = function (mode, opts) {
     params.push('--open');
     params.push('--color');
     params.push('--no-inline');
-  } else {
-    params.push('--hide-modules');
   }
 
   let proc = spawn('node', params, { env: env });
