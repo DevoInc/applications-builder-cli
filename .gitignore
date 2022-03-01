@@ -7,6 +7,9 @@
 .AppleDouble
 .LSOverride
 
+# test coverage reports
+coverage
+
 # Icon must end with two \r
 Icon
 
