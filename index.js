@@ -38,16 +38,14 @@ console.log(
 /**
  * Description
  */
-program
-  .version(ver)
-  .description('Devo Applications Builder Client command line');
+program.version(ver).description('Devo Applications Builder CLI command line');
 
 /**
  * Command: Check
  */
 program
   .command('check')
-  .description('Check requirements to install and run the client command line')
+  .description('Check requirements to install and run the CLI')
   .action((...args) => {
     execute = true;
     checkAction(...args);
@@ -78,7 +76,7 @@ program
  */
 program
   .command('build <mode>')
-  .option('-r --release [release]', 'Release tag',)
+  .option('-r --release [release]', 'Release tag')
   .option('--analyze', 'Use the analyzer tools')
   .option('--external-deps', 'Externalize web dependencies')
   .description('Build the application.')

@@ -1,7 +1,7 @@
 {
-  "name": "@devo/applications-builder-client",
-  "description": "Devo Applications Builder Client",
-  "version": "1.0.0",
+  "name": "@devo/applications-builder-cli",
+  "description": "Devo Applications Builder CLI",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {

@@ -1,6 +1,6 @@
-# Devo Application Builder Client
+# Devo Application Builder CLI
 
-This is a client tool for building and testing applications for Devo
+This is a command line interface tool for building and testing applications for Devo
 platform.
 
 ## Features
@@ -20,18 +20,20 @@ platform.
 ## Installation
 
 From npmjs
+
 ```
-sudo npm install @devo/applications-builder-client -global
+sudo npm install @devo/applications-builder-cli -g
 ```
 
 Local repository
+
 ```
-sudo npm install -global
+sudo npm install -g
 ```
 
 ## Usages
 
-Run the client with the `dab-cli` command.
+Run the CLI with the `dab-cli` command.
 
 #### Check
 
@@ -64,10 +66,11 @@ Params:
   directory.
 - `template`: Zip file or git repository URL to use as template.
 
-By default, the template used is the one from the 
-[git@github.com:DevoInc/applications-builder-template.git](https://github.com/DevoInc/applications-builder-template) 
-repository. 
+By default, the template used is the one from the
+[git@github.com:DevoInc/applications-builder-template.git](https://github.com/DevoInc/applications-builder-template)
+repository.
 You can use another template specifying a zip file path or a git repository.
+
 #### Build
 
 Build the application for a specific mode. Execute this command from the root directory of the application.
@@ -88,7 +91,6 @@ Modes:
 - `pre`: Pre-production mode. Builds minified code but lets us use the
   [Devo Runner](https://chrome.google.com/webstore/detail/devo-runner/apjjdfhcegcemhdhaeadkddbjhgfplmo).
 - `pro`: Production mode. Builds minified code ready for upload to Devo.
-
 
 Remember its important you make `npm install` in the project folder before you
 can make one build of the project.

@@ -25,7 +25,7 @@ function showStats() {
   );
   const appsBuilderConfig = require(route);
 
-  // Get the Applications Builder Client configuration file
+  // Get the Applications Builder CLI configuration file
   route = paths.getBinPath('package.json');
   const appsBuilderCliConfig = require(route);
 
@@ -36,7 +36,7 @@ function showStats() {
   process.stdout.write(
     `Devo Applications Builder: ${appsBuilderConfig.version} | ` +
       `Devo Applications Data Library: ${appsDataLibConfig.version} | ` +
-      `Devo Applications Builder Client: ${appsBuilderCliConfig.version}\r\n\n` +
+      `Devo Applications Builder CLI: ${appsBuilderCliConfig.version}\r\n\n` +
       `Id: ${appConfig.id}\r\n` +
       `Path: ${paths.appPath}\r\n\n`
   );
