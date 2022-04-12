@@ -15,13 +15,13 @@ function showStats() {
 
   // Get the Applications Data Library configuration file
   let route = paths.getAppPath(
-    'node_modules/@devo/applications-data-library/package.json'
+    'node_modules/@devoinc/applications-data-library/package.json'
   );
   const appsDataLibConfig = require(route);
 
   // Get the Applications Builder configuration file
   route = paths.getAppPath(
-    'node_modules/@devo/applications-builder/package.json'
+    'node_modules/@devoinc/applications-builder/package.json'
   );
   const appsBuilderConfig = require(route);
 

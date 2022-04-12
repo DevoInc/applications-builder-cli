@@ -22,7 +22,7 @@ platform.
 From npmjs
 
 ```
-sudo npm install @devo/applications-builder-cli -g
+sudo npm install @devoinc/applications-builder-cli -g
 ```
 
 Local repository
