@@ -154,7 +154,7 @@ module.exports = function () {
 
   // First read the translation files
   let gLocs = readLocales(
-    'node_modules/@devo/applications-builder/i18n/locales/'
+    'node_modules/@devoinc/applications-builder/i18n/locales/'
   );
   let locs = readLocales('src/i18n/');
 
