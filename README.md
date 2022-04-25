@@ -12,7 +12,7 @@ platform.
 ## Requirements
 
 - Git
-- Node >= 8.0.0
+- Node >= 12 and <= 14
 - npm >= 6.0.0
 - Devo account
 - [Devo Runner](https://chrome.google.com/webstore/detail/devo-runner/apjjdfhcegcemhdhaeadkddbjhgfplmo) extension for Chrome
