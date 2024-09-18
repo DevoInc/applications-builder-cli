@@ -1,7 +1,7 @@
 {
   "name": "@devoinc/applications-builder-cli",
   "description": "Devo Applications Builder CLI",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -63,7 +63,8 @@
     "webpack-dev-server": "^4.7.4",
     "webpack-notifier": "^1.7.0",
     "webpack-stats-plugin": "^0.2.1",
-    "write-file-webpack-plugin": "^4.5.0"
+    "write-file-webpack-plugin": "^4.5.0",
+    "postcss": "^8.2.15"
   },
   "bin": {
     "dab-cli": "./index.js"
